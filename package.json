@@ -16,13 +16,13 @@
   ],
   "license": "MIT",
   "author": "sedlukha",
-  "homepage": "https://github.com/sedlukha/jsontranslator#readme",
+  "homepage": "https://github.com/sedlukha/json-auto-translate#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sedlukha/jsontranslator.git"
+    "url": "git+https://github.com/sedlukha/json-auto-translate.git"
   },
   "bugs": {
-    "url": "https://github.com/sedlukha/jsontranslator/issues"
+    "url": "https://github.com/sedlukha/json-auto-translate/issues"
   },
   "type": "module",
   "main": "./dist/index.js",

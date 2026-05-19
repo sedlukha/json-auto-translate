@@ -1,6 +1,6 @@
-# jsontranslator
+# json-auto-translate
 
-[![CI](https://github.com/sedlukha/jsontranslator/actions/workflows/ci.yml/badge.svg)](https://github.com/sedlukha/jsontranslator/actions/workflows/ci.yml)
+[![CI](https://github.com/sedlukha/json-auto-translate/actions/workflows/ci.yml/badge.svg)](https://github.com/sedlukha/json-auto-translate/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/json-auto-translate.svg)](https://www.npmjs.com/package/json-auto-translate)
 [![npm downloads](https://img.shields.io/npm/dm/json-auto-translate.svg)](https://www.npmjs.com/package/json-auto-translate)
 [![license](https://img.shields.io/npm/l/json-auto-translate.svg)](LICENSE)
@@ -9,7 +9,7 @@ Batch-translate JSON string arrays into multiple locales via the **OpenAI chat A
 
 ## Why?
 
-Most i18n tooling either ships a heavyweight runtime, requires a vendor SDK, or fails noisily when the model returns garbage. `jsontranslator` is the opposite: a single function plus a tiny CLI that
+Most i18n tooling either ships a heavyweight runtime, requires a vendor SDK, or fails noisily when the model returns garbage. `json-auto-translate` is the opposite: a single function plus a tiny CLI that
 
 - batches many strings into one OpenAI request (cheap + fast),
 - preserves ICU-style placeholders like `{count}` and `{username}`,
